@@ -1,0 +1,29 @@
+h1, h2 {
+    color: green;
+}
+
+nav a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+th, .bleu {
+    color: blue;
+}
+
+img:hover {
+    border: 1px solid black;
+}
+
+#secondParagraphe {
+    color: gray;
+}

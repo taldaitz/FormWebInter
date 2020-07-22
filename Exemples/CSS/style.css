@@ -1,0 +1,24 @@
+p, li {color: gray;}
+
+#dernierElement {
+    color: red;
+}
+
+.vert {
+    color: green;
+}
+
+.ssligne {
+    text-decoration: underline;
+}
+
+
+#premierElement {
+    color: yellow;
+}
+
+
+li:hover {
+    text-decoration: underline;
+}
+

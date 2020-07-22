@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/*regles générales*/
+h1, h2 {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+th, .bleu {
+    color: blue;
+}
+
+/* header */
+header {
+    border: 5px solid green;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40pt;
+}
+
+header cite {
+    font-weight: bold;
+}
+
+/* nav */
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 16pt;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* main */
+
+main {
+    margin: 0 100px 0 100px;
+}
+
+main p {
+    text-align: justify;
+}
+
+main h2 {
+    text-transform: uppercase;
+}
+
+
+/*regles pseudo-classes*/
+
+img:hover {
+    border: 1px solid black;
+}
+
+section:hover {
+    border: 2px solid black;
+}
+
+section:hover h2 {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+/*regles par Id*/
+#secondParagraphe {
+    color: gray;
+}

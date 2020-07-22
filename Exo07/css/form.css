@@ -1,0 +1,13 @@
+form {
+    width: 700px;
+    margin: auto;
+}
+
+form label {
+    width: 110px;
+    display: inline-block;
+}
+
+form p {
+    display: inline-block;
+}

@@ -8,12 +8,19 @@
 
 
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 
     <link rel="stylesheet" href="css/style.css">
@@ -30,30 +37,30 @@
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Accueil</a>
+    <nav class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
             </li>
-            <li>
-                <a href="contact.html">Contact</a>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <li>
-                <a href="inscription.html">Inscription</a>
+            <li class="nav-item">
+                <a class="nav-link" href="inscription.html">Inscription</a>
             </li>
-            <li>
-                <a href="https://fr.wikipedia.org/wiki/Baseball" target="_blank">
+            <li class="nav-item">
+                <a class="nav-link" href="https://fr.wikipedia.org/wiki/Baseball" target="_blank">
                     En savoir plus
                 </a>
             </li>
         </ul>
     </nav>
 
-    <main>
-        <section>
-            <h2>Description</h2>
+    <main class="container">
+        <section class="row">
+            <h2 class="col-12">Description</h2>
 
-            <p>
+            <p class="col-12 text-justify col-xl-4">
                 Le baseball [bɛzbol]1 Écouter (de l'anglais : [ˈbeɪsˌbɔl]2 Écouter) est un sport collectif dérivé des
                 mêmes racines que le cricket, qui se pratique sur un terrain de gazon et de sable. Il se joue avec des
                 battes pour frapper une balle lancée, et des gants pour rattraper la balle. Les origines du baseball
@@ -63,7 +70,7 @@
                 longue date par les historiens américains du sport. La récente mise en lumière d'une description d'un
                 match joué en 1755 dans le Surrey (Angleterre) va dans ce sens3.
             </p>
-            <p id="secondParagraphe">
+            <p class="col-12 text-justify col-xl-4" id="secondParagraphe">
                 C'est bien aux États-Unis, toutefois, que ce sport s'organise et se structure. Les premiers championnats
                 y voient le jour dès 1857-1858, le professionnalisme est autorisé à partir de 1869 et la Ligue nationale
                 est créée en 1876. Trente franchises, l'une d'elles basée au Canada, à Toronto, évoluent au plus haut
@@ -71,7 +78,7 @@
                 pour Major League Baseball). Depuis 1903, les séries mondiales opposent en octobre les vainqueurs des
                 deux ligues formant la MLB.
             </p>
-            <p>
+            <p class="col-12 text-justify col-xl-4">
                 Ce sport national américain (« national pastime ») connaît un retentissant scandale en 1919, celui des
                 Black Sox impliquant plusieurs joueurs des White Sox de Chicago pour corruption à l'occasion des Séries
                 mondiales. Le juge Kenesaw Mountain Landis est nommé comme commissaire des ligues majeures ; il reste en
@@ -85,17 +92,25 @@
             </p>
         </section>
 
-        <section id="gallerie">
-            <h2>Gallerie</h2>
-            <img src="img/bball_01.jpg">
-            <img src="img/bball_02.jpg">
-            <img src="img/bball_03.jpg">
+        <section class="row">
+            <h2 class="col-12">Gallerie</h2>
+            <figure class="col-12 col-xl-4 d-flex align-items-center">
+                <img class="img-fluid" src="img/bball_01.jpg">
+            </figure>
+            
+            <figure class="col-12 col-xl-4 d-flex align-items-center">
+                <img class="img-fluid" src="img/bball_02.jpg">
+            </figure>
+
+            <figure class="col-12 col-xl-4 d-flex align-items-center">
+                <img class="img-fluid" src="img/bball_03.jpg">
+            </figure>
         </section>
 
-        <section>
-            <h2>Classement</h2>
+        <section class="row">
+            <h2 class="col-12">Classement</h2>
 
-            <table>
+            <table class="col-12 table-striped table-bordered">
 
                 <thead>
                     <tr>
@@ -111,19 +126,19 @@
                         <td class="bleu">Mets</td>
                         <td>New-York</td>
                         <td>#1</td>
-                        <td><img src="img/mets.png" height="30"/></td>
+                        <td><img src="img/mets.png" height="30" /></td>
                     </tr>
                     <tr>
                         <td class="bleu">Yankees</td>
                         <td>Washington et plein d'autres ville limitrophes</td>
                         <td>#2</td>
-                        <td><img src="img/yankee.png" height="30"/></td>
+                        <td><img src="img/yankee.png" height="30" /></td>
                     </tr>
                     <tr>
                         <td class="bleu">Red Sox</td>
                         <td>Boston</td>
                         <td>#3</td>
-                        <td><img src="img/red_sox.png" height="30"/></td>
+                        <td><img src="img/red_sox.png" height="30" /></td>
                     </tr>
                     <tr>
                         <td colspan="2" class="bleu">Lyon</td>
@@ -140,10 +155,15 @@
     <aside>
     </aside>
 
-    <footer>
-        <p>Site réalisé par <a href="mailto:taldaitz@dawan.fr">Thomas Aldaitz</a>,
-        pendant la formation faite avec 
-        <a href="https://www.dawan.fr/" target="_blank"><img src="https://www.dawan.fr/images/institutionnel-logo.png" width="50"/></a></p>
+    <footer class="container">
+        <div class="row">
+            <p class="col-12 text-center">
+                Site réalisé par <a href="mailto:taldaitz@dawan.fr">Thomas Aldaitz</a>,
+                pendant la formation faite avec
+                <a href="https://www.dawan.fr/" target="_blank"><img
+                        src="https://www.dawan.fr/images/institutionnel-logo.png" width="50" /></a>
+            </p>
+        </div>
     </footer>
 
 </body>

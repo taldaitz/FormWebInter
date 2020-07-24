@@ -1,0 +1,65 @@
+@media screen and (min-width: 1200px) {
+
+    nav {   
+        animation-name: Apparition;
+        animation-duration: 2s;
+    }
+    
+    @keyframes Apparition {
+        from {
+            left: -170px;
+        }
+        to {
+            left: 8px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    header {
+        border-color: red;
+        text-align: left;
+    }
+
+    header h1 {
+        font-size: 20pt;
+        color: red;
+        display: inline;
+    }
+
+    header cite {
+        display: inline;
+    }
+
+    nav {
+        position: relative;
+        width: unset;
+        left: unset;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 10px 0 10px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    main {
+        margin: 20px;
+    }
+
+    #gallerie img {
+        height: unset;
+        width: 100%;
+    }
+
+}

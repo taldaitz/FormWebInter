@@ -1,0 +1,25 @@
+#animation {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+    animation-name: Mouvement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes Mouvement {
+    from {
+        left: 50px;
+        background-color: cadetblue;
+    }
+    to {
+        left: 800px;
+        background-color: darkgoldenrod;
+    }
+}

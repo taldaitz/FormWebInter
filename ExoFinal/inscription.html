@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+    <h1>Formulaire d'isncription</h1>
+
+    <form action="traitement.php" method="POST">
+
+        <fieldset>
+            <legend>Identité</legend>
+            <p>
+                <label>Prénom : </label>
+                <input type="text" name="prenom" required/>
+            </p>
+            <p>
+                <label>Nom : </label>
+                <input type="text" name="nom" required/>
+            </p>
+            <p>
+                <label>Ville : </label>
+                <input type="text" name="ville" list="liste_ville"/>
+
+                <datalist id="liste_ville">
+                    <option value="Paris"></option>
+                    <option>Bordeaux</option>
+                    <option>Nantes</option>
+                    <option>Lyon</option>
+                    <option>Toulouse</option>
+                    <option>Lille</option>
+                </datalist>
+            </p>
+            <p>
+                <label>Code postal : </label>
+                <input type="number" name="cp"/>
+            </p>
+            <p>
+                <label>Téléphone : </label>
+                <input type="text" name="telephone"/>
+            </p>
+
+            <p>
+                <label>Date de naissance : </label>
+                <input type="date" name="dateNaissance"/>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Connexion</legend>
+
+            <p>
+                <label>Email : </label>
+                <input type="email" name="email" required/>
+            </p>
+            <p>
+                <label>Mot de passe : </label>
+                <input type="password" name="password" required/>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Centre d'interets</legend>
+
+            <p>
+                <label>Commentaires : </label>
+                <textarea name="commentaires" cols="30" rows="10"></textarea>
+            </p>
+
+            <p>
+                Centres d'interets : 
+                <input type="checkbox" name="interets" value="matchs"><label>Résultats des matchs</label> 
+                <input type="checkbox" name="interets" value="joueurs"><label>Transferts joueurs</label> 
+                <input type="checkbox" name="interets" value="calendrier"><label>Calendrier</label> 
+            </p>
+
+            <p>
+                <label>Comment avez connu notre site ? </label>
+                <select name="moyenConnaissance">
+                    <option>Par Bouche à Oreille</option>
+                    <option>Par Publicité</option>
+                    <option>Par Newsletter</option>
+                    <option value="radio-tv">Par Radio/TV</option>
+                </select>
+            </p>
+        </fieldset>
+
+
+        <input type="submit" value="Envoyer"/>
+        <input type="reset" value="R.A.Z"/>
+
+    </form>
+    
+</body>
+</html>

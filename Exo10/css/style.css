@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/*regles générales*/
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+th, .bleu {
+    color: blue;
+}
+
+/* header */
+header {
+    border: 5px solid green;
+    text-align: center;
+    background-color: white;
+    transition: border-color 1s;
+}
+
+header h1 {
+    font-size: 40pt;
+    transition: color 1s;
+}
+
+header cite {
+    font-weight: bold;
+}
+
+/* nav */
+
+nav {
+    position: absolute;
+    width: 200px;
+    left: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 16pt;
+
+    transition: color 1s, background-color 2s;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+/* main */
+
+main {
+    margin: 0 210px 0 210px;
+}
+
+main p {
+    text-align: justify;
+}
+
+main h2 {
+    text-transform: uppercase;
+}
+
+
+aside {
+    background-color: goldenrod;
+    border: 1px solid black;
+    position: fixed;
+    width: 200px;
+    height: 400px;
+    right: 0;
+    top: 85px;
+    z-index: -2;
+}
+
+footer {
+    background-color: darkgreen;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/*regles pseudo-classes*/
+
+img:hover {
+    border: 1px solid black;
+}
+
+section:hover {
+    border: 2px solid black;
+}
+
+section:hover h2 {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+/*regles par Id*/
+#secondParagraphe {
+    color: gray;
+}
+
+#gallerie img {
+    height: 300px;
+}

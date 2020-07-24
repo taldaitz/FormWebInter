@@ -1,0 +1,41 @@
+main {
+    width: 800px;
+    border: 1px black solid;
+    margin: auto;
+    padding: 50px 30px 50px 30px;
+    margin-top: 40px;
+}
+
+main:hover {
+    border-width: 10px;
+}
+
+p {
+    width: 49%;
+    display: inline-block;
+}
+
+.miseEnValeur {
+    width: 100%;
+    font-size: 16pt;
+}
+
+main:hover .miseEnValeur {
+    font-weight: bold;
+}
+
+#infosPlus {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid black;
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: height 3s;
+}
+
+#infosPlus:hover {
+    height: 1000px;
+}
